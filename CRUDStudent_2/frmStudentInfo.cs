@@ -50,7 +50,7 @@ namespace CRUDStudent_2
             }
             catch (DbEntityValidationException)
             {
-                MessageBox.Show("Todos los campos deben ser llenados", "Entity Validation Exception");
+                MessageBox.Show("Todos los campos deben ser llenados", "Entity Validation Exception!");
             }
             DialogResult = DialogResult.OK;
 
